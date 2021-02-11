@@ -1,18 +1,23 @@
-Ascent - All-in-One CFW package for the Nintendo Switch based on Kosmos/DeepSea.
+<img src="assets/deepsea_wide_tr_an.gif" align="center" width="100%" />
+<p align="center">
+    An All-in-One CFW package for the Nintendo Switch based on DeepSea.</br>
+</p>
 
 ---
 
 ## Features
-* Vanilla Atmosphère
-* Always up-to-date packages
-* Background FTP Server
-* Updating directly from your console
-* Customize button bindings
-* Easy drag and drop install
-* Ability to enable autoboot without touching config files
-* Starting and reloading system modules without restarting
-* The latest and greatest homebrew from the scene
-* **and much more!**
+
+- Background FTP server for filetransfers
+- Install NSP, NSZ, XCI & XCZ files from Harddrive, Google Drive, WLAN or Wired through PC, Smartphone, etc
+- Over & Underclocking
+- Update OFW & CFW through homebrew
+- Find new homebrew through the Appstore
+- Savegame management
+- Cheating in games (please dont cheat online)
+- Emulate Amiibos
+- Use all kinds of 3rd party controllers
+- Lan play (like Hamachi for your Switch)
+- Tesla overlay to controll al those features (press L1+DpadDown+RightStick)
 
 
 ## How to use
@@ -24,34 +29,38 @@ Send the Hekate payload to your Switch in RCM mode and launch the CFW
 
 ## Featuring
 
-* [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere)
-* [Hekate](https://github.com/CTCaer/hekate)
-* [Ascent Toolbox](https://github.com/exploitz86/Ascent-Toolbox)
-* [Ascent Updater](https://github.com/exploitz86/Ascent-Updater)
-* [Homebrew App Store](https://gitlab.com/4TU/hb-appstore)
-* [Hekate Icons](https://github.com/NicholeMattera/Hekate-Icons)
-* [Amiigo](https://github.com/StarDustCFW/Amiigo)
-* [EdiZonSE](https://github.com/tomvita/EdiZon-SE)
-* [EdiZonOverlay](https://github.com/WerWolv/EdiZon)
-* [emuiibo](https://github.com/XorTroll/emuiibo)
-* [Goldleaf](https://github.com/XorTroll/Goldleaf)
-* [JKSV](https://github.com/J-D-K/JKSV)
-* [nxmtp](https://github.com/liuervehc/nxmtp)
-* [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM)
-* [Incognito_RCM](https://github.com/Scandal-UK/Incognito_RCM)
-* [Tesla-Menu](https://github.com/WerWolv/Tesla-Menu)
-* [nx-ovlloader](https://github.com/WerWolv/nx-ovlloader)
-* [ovlSysmodules](https://github.com/WerWolv/ovl-sysmodules)
-* [Status Monitor Overlay](https://github.com/masagrator/Status-Monitor-Overlay)
-* [sys-clk](https://github.com/retronx-team/sys-clk)
-* [sys-con](https://github.com/cathery/sys-con)
-* [sys-ftpd-light](https://github.com/cathery/sys-ftpd-light)
-* [ldn_mitm](https://github.com/spacemeowx2/ldn_mitm)
+| Software | Ascent | Ascent-WithoutMesosphere | Ascent-minimal |
+| -------- | :-------------: | :------------: | :------------: |
+| [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere) | ✅ | ✅ | ✅ |
+| [Hekate](https://github.com/CTCaer/hekate) | ✅ | ✅ | ✅ |
+| [Homebrew App Store](https://github.com/fortheusers/hb-appstore) | ✅ | ✅ | ✅ |
+| [EdiZon](https://github.com/WerWolv/EdiZon) | ✅ | ✅ |  |
+| [emuiibo](https://github.com/XorTroll/emuiibo) | ✅ | ✅ |  |
+| [TinWoo](https://github.com/mrdude2478/TinWoo) | ✅ | ✅ |  |
+| [Ascent Toolbox](https://github.com/exploitz86/Ascent-Toolbox) | ✅ | ✅ |  |
+| [Ascent Updater](https://github.com/exploitz86/Ascent-Updater) | ✅ | ✅ |  |
+| [Ascent Assets](https://github.com/exploitz86/Ascent-Assets) | ✅ | ✅ | ✅ |
+| [Incognito_RCM](https://github.com/Scandal-UK/Incognito_RCM) | ✅ | ✅ |  |
+| [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM) | ✅ | ✅ |  |
+| [Amiigo](https://github.com/StarDustCFW/Amiigo) | ✅ | ✅ |  |
+| [aio-switch-updater](https://github.com/HamletDuFromage/aio-switch-updater) | ✅ | ✅ |  |
+| [JKSV](https://github.com/J-D-K/JKSV) | ✅ | ✅ |  |
+| [nxmtp](https://github.com/liuervehc/nxmtp) | ✅ | ✅ |  |
+| [Tesla-Menu](https://github.com/WerWolv/Tesla-Menu) | ✅ | ✅ |  |
+| [nx-ovlloader](https://github.com/WerWolv/nx-ovlloader) | ✅ | ✅ |  |
+| [ovlSysmodules](https://github.com/WerWolv/ovl-sysmodules) | ✅ | ✅ |  |
+| [Status Monitor Overlay](https://github.com/masagrator/Status-Monitor-Overlay) | ✅ | ✅ |  |
+| [sys-clk](https://github.com/retronx-team/sys-clk) | ✅ | ✅ |  |
+| [sys-con](https://github.com/cathery/sys-con) | ✅ | ✅ |  |
+| [MissionControl](https://github.com/ndeadly/MissionControl) | ✅ | ✅ |  |
+| [sys-ftpd-light](https://github.com/cathery/sys-ftpd-light) | ✅ | ✅ |  |
+| [ldn_mitm](https://github.com/spacemeowx2/ldn_mitm) | ✅ | ✅ |  |
 
 
 ## Credits
-* Thanks to all the previous members of Team AtlasNX!
-* Thanks to all members of Team Neptune!
+* Thanks to all the previous members of Team AtlasNX and all the members of DeepSea.
+* And a huge thanks to all the awesome homebrew developers!
 
 ## Notes
-* This cfw package has been made for personal use and for a couple of friends. Everyone is welcome to use this version but you should check out the original [DeepSea](https://github.com/Team-Neptune/DeepSea) github page since this is just an extended/modified version of that.
+* This CRW package has been made for my personal use and for a couple of friends based on the incredible [DeepSea CFW Package](https://github.com/Team-Neptune/DeepSea).
+* You are free to use this package, but since this is just a modified/extended version if the features provided by DeepSea are satisfactory to you please consider to use it.

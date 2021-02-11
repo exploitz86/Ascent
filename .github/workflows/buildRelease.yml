@@ -1,0 +1,44 @@
+name: BuildRelease
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+      
+    - id: set-version
+      run: |
+        version=$(cat ./VERSION | python -c 'import sys, json; f=open("./VERSION");print(json.loads(f.read())["buildVersion"])')
+        echo "::set-output name=version::$version"
+        
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.9.1
+
+    - name: Install dependencies
+      run: |
+        if [ -f ./requirements.txt ]; then pip3 install -r ./requirements.txt; fi
+        
+    - name: Create Ascent Packages
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: | 
+        python ./autobuild.py -gt="$GITHUB_TOKEN"
+
+    - name: Create Release
+      run: |
+        set -x
+        assets=()
+        for asset in ./*.zip; do
+          assets+=("-a" "$asset")
+        done
+        hub release create "${assets[@]}" -d -m "Release v${{ steps.set-version.outputs.version }}" "v${{ steps.set-version.outputs.version }}"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
