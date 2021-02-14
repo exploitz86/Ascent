@@ -1,6 +1,6 @@
-<img src="assets/deepsea_wide_tr_an.gif" align="center" width="100%" />
+<img src="assets/ascent.png" align="center" width="100%" />
 <p align="center">
-    An All-in-One CFW package for the Nintendo Switch based on DeepSea.</br>
+    An All-in-One CFW package for the Nintendo Switch based on [DeepSea](https://github.com/Team-Neptune/DeepSea).</br>
 </p>
 
 ---
@@ -10,14 +10,14 @@
 - Background FTP server for filetransfers
 - Install NSP, NSZ, XCI & XCZ files from Harddrive, Google Drive, WLAN or Wired through PC, Smartphone, etc
 - Over & Underclocking
-- Update OFW & CFW through homebrew
+- Update OFW & CFW through Ascent Updater homebrew
 - Find new homebrew through the Appstore
 - Savegame management
 - Cheating in games (please dont cheat online)
 - Emulate Amiibos
 - Use all kinds of 3rd party controllers
 - Lan play (like Hamachi for your Switch)
-- Tesla overlay to controll al those features (press L1+DpadDown+RightStick)
+- Tesla overlay to control a lot of features
 
 
 ## How to use
