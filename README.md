@@ -1,4 +1,3 @@
-<img src="assets/ascent.png" align="center" width="100%" />
 <p align="center">
     An All-in-One CFW package for the Nintendo Switch based on [DeepSea](https://github.com/Team-Neptune/DeepSea).</br>
 </p>
