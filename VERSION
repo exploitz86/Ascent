@@ -1,4 +1,4 @@
 {
-    "buildVersion": "2.0.1",
+    "buildVersion": "2.0.0",
     "buildPackages": ["Ascent", "Ascent_without-mesosphere", "Ascent_minimal"]
 }
