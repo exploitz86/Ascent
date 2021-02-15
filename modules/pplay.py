@@ -17,6 +17,6 @@ class pplay(Basemodule):
         release = self.getLatestRelease()
         assetName = self.downloadAsset(release)
         extracted = self.unpackAsset(assetName)
-        self.copyFolderContentToPackage(extracted, (Path.cwd(), "switch_out", "switch"))
+        self.copyFolderContentToPackage(extracted, Path.joinpath(Path.cwd(), "switch_out", "switch"))
 
 package = pplay(config)
