@@ -33,7 +33,8 @@ Send the Hekate payload to your Switch in RCM mode and launch the CFW
 | [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere) | ✅ | ✅ | ✅ |
 | [Hekate](https://github.com/CTCaer/hekate) | ✅ | ✅ | ✅ |
 | [Homebrew App Store](https://github.com/fortheusers/hb-appstore) | ✅ | ✅ | ✅ |
-| [EdiZon](https://github.com/WerWolv/EdiZon) | ✅ | ✅ |  |
+| [EdiZonOverlay](https://github.com/WerWolv/EdiZon) | ✅ | ✅ |  |
+| [EdiZonSE](https://github.com/tomvita/EdiZon-SE) | ✅ | ✅ |  |
 | [emuiibo](https://github.com/XorTroll/emuiibo) | ✅ | ✅ |  |
 | [TinWoo](https://github.com/mrdude2478/TinWoo) | ✅ | ✅ |  |
 | [Ascent Toolbox](https://github.com/exploitz86/Ascent-Toolbox) | ✅ | ✅ |  |
