@@ -1,5 +1,5 @@
 <p align="center">
-    An All-in-One CFW package for the Nintendo Switch based on [DeepSea](https://github.com/Team-Neptune/DeepSea).</br>
+    An All-in-One CFW package for the Nintendo Switch based on DeepSea from Team-Neptune.</br>
 </p>
 
 ---
@@ -42,6 +42,7 @@ Send the Hekate payload to your Switch in RCM mode and launch the CFW
 | [Incognito_RCM](https://github.com/Scandal-UK/Incognito_RCM) | ✅ | ✅ |  |
 | [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM) | ✅ | ✅ |  |
 | [Amiigo](https://github.com/StarDustCFW/Amiigo) | ✅ | ✅ |  |
+| [pPlay](https://github.com/Cpasjuste/pplay) | ✅ | ✅ |  |
 | [aio-switch-updater](https://github.com/HamletDuFromage/aio-switch-updater) | ✅ | ✅ |  |
 | [JKSV](https://github.com/J-D-K/JKSV) | ✅ | ✅ |  |
 | [nxmtp](https://github.com/liuervehc/nxmtp) | ✅ | ✅ |  |
@@ -57,9 +58,9 @@ Send the Hekate payload to your Switch in RCM mode and launch the CFW
 
 
 ## Credits
-* Thanks to all the previous members of Team AtlasNX and all the members of DeepSea.
+* Thanks to all the previous members of Team AtlasNX and all the members of Team-Neptune.
 * And a huge thanks to all the awesome homebrew developers!
 
 ## Notes
-* This CRW package has been made for my personal use and for a couple of friends based on the incredible [DeepSea CFW Package](https://github.com/Team-Neptune/DeepSea).
+* This CFW package has been made for my personal use and for a couple of friends based on the incredible [DeepSea CFW Package](https://github.com/Team-Neptune/DeepSea).
 * You are free to use this package, but since this is just a modified/extended version if the features provided by DeepSea are satisfactory to you please consider to use it.
