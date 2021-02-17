@@ -1,11 +1,11 @@
 [
     "atmosphere", "hekate", "hbappstore" , "ascentassets",
 
-    "ascenttoolbox", "ascentupdater",
+    "ascenttoolbox", "ascentupdater", "patches",
 
     "incognitorcm" , "lockpickrcm",
     
-    "amiigo", "aioswitchupdater", "edizonSE", "edizonovl", "emuiibo", "jksv", "nxmtp", "pplay", "tinwoo",
+    "amiigo", "aioswitchupdater", "edizonSE", "edizonovl", "emuiibo", "jksv", "nxmtp", "pplay", "tinwoo", "goldleaf",
     
     "ldnmitm", "missioncontrol", "sysclk", "syscon","sysftplight",
     "ovlloader", "ovlsysmodules", "teslamenu", "statusmonitoroverlay"

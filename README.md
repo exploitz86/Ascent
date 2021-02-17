@@ -17,6 +17,7 @@
 - Use all kinds of 3rd party controllers
 - Lan play (like Hamachi for your Switch)
 - Tesla overlay to control a lot of features
+- Latest signature patches
 
 
 ## How to use
@@ -33,6 +34,7 @@ Send the Hekate payload to your Switch in RCM mode and launch the CFW
 | [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere) | ✅ | ✅ | ✅ |
 | [Hekate](https://github.com/CTCaer/hekate) | ✅ | ✅ | ✅ |
 | [Homebrew App Store](https://github.com/fortheusers/hb-appstore) | ✅ | ✅ | ✅ |
+| [ITotalJustice SigPatches](https://github.com/ITotalJustice/patches) | ✅ | ✅ | ✅ |
 | [EdiZonOverlay](https://github.com/WerWolv/EdiZon) | ✅ | ✅ |  |
 | [EdiZonSE](https://github.com/tomvita/EdiZon-SE) | ✅ | ✅ |  |
 | [emuiibo](https://github.com/XorTroll/emuiibo) | ✅ | ✅ |  |
@@ -40,10 +42,11 @@ Send the Hekate payload to your Switch in RCM mode and launch the CFW
 | [Ascent Toolbox](https://github.com/exploitz86/Ascent-Toolbox) | ✅ | ✅ |  |
 | [Ascent Updater](https://github.com/exploitz86/Ascent-Updater) | ✅ | ✅ |  |
 | [Ascent Assets](https://github.com/exploitz86/Ascent-Assets) | ✅ | ✅ | ✅ |
-| [Incognito_RCM](https://github.com/Scandal-UK/Incognito_RCM) | ✅ | ✅ |  |
-| [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM) | ✅ | ✅ |  |
+| [Incognito_RCM](https://github.com/Scandal-UK/Incognito_RCM) | ✅ | ✅ | ✅ |
+| [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM) | ✅ | ✅ | ✅ |
 | [Amiigo](https://github.com/StarDustCFW/Amiigo) | ✅ | ✅ |  |
 | [pPlay](https://github.com/Cpasjuste/pplay) | ✅ | ✅ |  |
+| [Goldleaf](https://github.com/XorTroll/Goldleaf) | ✅ | ✅ |  |
 | [aio-switch-updater](https://github.com/HamletDuFromage/aio-switch-updater) | ✅ | ✅ |  |
 | [JKSV](https://github.com/J-D-K/JKSV) | ✅ | ✅ |  |
 | [nxmtp](https://github.com/liuervehc/nxmtp) | ✅ | ✅ |  |
