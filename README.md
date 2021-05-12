@@ -17,7 +17,6 @@
 - Use all kinds of 3rd party controllers
 - Lan play (like Hamachi for your Switch)
 - Tesla overlay to control a lot of features
-- Latest signature patches
 
 
 ## How to use
@@ -34,7 +33,6 @@ Send the Hekate payload to your Switch in RCM mode and launch the CFW
 | [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere) | ✅ | ✅ | ✅ |
 | [Hekate](https://github.com/CTCaer/hekate) | ✅ | ✅ | ✅ |
 | [Homebrew App Store](https://github.com/fortheusers/hb-appstore) | ✅ | ✅ | ✅ |
-| [ITotalJustice SigPatches](https://github.com/ITotalJustice/patches) | ✅ | ✅ | ✅ |
 | [EdiZonOverlay](https://github.com/WerWolv/EdiZon) | ✅ | ✅ |  |
 | [EdiZonSE](https://github.com/tomvita/EdiZon-SE) | ✅ | ✅ |  |
 | [emuiibo](https://github.com/XorTroll/emuiibo) | ✅ | ✅ |  |
