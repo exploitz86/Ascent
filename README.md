@@ -54,7 +54,6 @@ Send the Hekate payload to your Switch in RCM mode and launch the CFW
 | [Status Monitor Overlay](https://github.com/masagrator/Status-Monitor-Overlay) | ✅ | ✅ |  |
 | [sys-clk](https://github.com/retronx-team/sys-clk) | ✅ | ✅ |  |
 | [sys-con](https://github.com/cathery/sys-con) | ✅ | ✅ |  |
-| [MissionControl](https://github.com/ndeadly/MissionControl) | ✅ | ✅ |  |
 | [sys-ftpd-light](https://github.com/cathery/sys-ftpd-light) | ✅ | ✅ |  |
 | [ldn_mitm](https://github.com/spacemeowx2/ldn_mitm) | ✅ | ✅ |  |
 
