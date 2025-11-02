@@ -1,3 +1,140 @@
 {
-
+  "atmosphere": {
+    "version": "1.9.5",
+    "published_at": "2025-09-30T01:57:12+00:00",
+    "repo": "Atmosphere-NX/Atmosphere",
+    "url": "https://github.com/Atmosphere-NX/Atmosphere/releases/tag/1.9.5"
+  },
+  "hekate": {
+    "version": "v6.3.1",
+    "published_at": "2025-05-29T03:14:42+00:00",
+    "repo": "CTCaer/hekate",
+    "url": "https://github.com/CTCaer/hekate/releases/tag/v6.3.1"
+  },
+  "ascentassets": {
+    "version": "v1.0",
+    "published_at": "2025-11-01T16:26:01+00:00",
+    "repo": "exploitz86/Ascent-Assets",
+    "url": "https://github.com/exploitz86/Ascent-Assets/releases/tag/v1.0"
+  },
+  "sphaira": {
+    "version": "0.13.3",
+    "published_at": "2025-06-19T10:44:56+00:00",
+    "repo": "ITotalJustice/sphaira",
+    "url": "https://github.com/ITotalJustice/sphaira/releases/tag/0.13.3"
+  },
+  "hbappstore": {
+    "version": "v2.3.2",
+    "published_at": "2023-03-23T15:54:19+00:00",
+    "repo": "fortheusers/hb-appstore",
+    "url": "https://github.com/fortheusers/hb-appstore/releases/tag/v2.3.2"
+  },
+  "ascenttoolbox": {
+    "version": "1.0.0",
+    "published_at": "2025-11-01T17:18:04+00:00",
+    "repo": "exploitz86/Ascent-Toolbox",
+    "url": "https://github.com/exploitz86/Ascent-Toolbox/releases/tag/1.0.0"
+  },
+  "aioupdater": {
+    "version": "1.00.3",
+    "published_at": "2025-10-30T19:50:37+00:00",
+    "repo": "exploitz86/aio-switch-updater",
+    "url": "https://github.com/exploitz86/aio-switch-updater/releases/tag/1.00.3"
+  },
+  "edizon": {
+    "version": "3.8.37",
+    "published_at": "2023-03-13T14:38:54+00:00",
+    "repo": "tomvita/EdiZon-SE",
+    "url": "https://github.com/tomvita/EdiZon-SE/releases/tag/3.8.37"
+  },
+  "edizon-ovl": {
+    "version": "v1.0.11",
+    "published_at": "2025-10-26T15:17:47+00:00",
+    "repo": "proferabg/EdiZon-Overlay",
+    "url": "https://github.com/proferabg/EdiZon-Overlay/releases/tag/v1.0.11"
+  },
+  "emuiibo": {
+    "version": "1.1.1",
+    "published_at": "2023-09-02T14:18:03+00:00",
+    "repo": "XorTroll/emuiibo",
+    "url": "https://github.com/XorTroll/emuiibo/releases/tag/1.1.1"
+  },
+  "jksv": {
+    "version": "09/13/2025",
+    "published_at": "2025-09-14T02:43:24+00:00",
+    "repo": "J-D-K/JKSV",
+    "url": "https://github.com/J-D-K/JKSV/releases/tag/09/13/2025"
+  },
+  "goldleaf": {
+    "version": "1.1.1",
+    "published_at": "2025-06-10T17:45:32+00:00",
+    "repo": "XorTroll/Goldleaf",
+    "url": "https://github.com/XorTroll/Goldleaf/releases/tag/1.1.1"
+  },
+  "sysclk": {
+    "version": "2.0.1",
+    "published_at": "2024-10-14T22:30:13+00:00",
+    "repo": "retronx-team/sys-clk",
+    "url": "https://github.com/retronx-team/sys-clk/releases/tag/2.0.1"
+  },
+  "syscon": {
+    "version": "v0.6.5",
+    "published_at": "2024-11-06T19:16:48+00:00",
+    "repo": "cathery/sys-con",
+    "url": "https://github.com/cathery/sys-con/releases/tag/v0.6.5"
+  },
+  "sysftpd": {
+    "version": "1.0.5",
+    "published_at": "2024-11-06T18:53:57+00:00",
+    "repo": "cathery/sys-ftpd",
+    "url": "https://github.com/cathery/sys-ftpd/releases/tag/1.0.5"
+  },
+  "ldn_mitm": {
+    "version": "v1.22.0",
+    "published_at": "2025-10-13T00:17:30+00:00",
+    "repo": "spacemeowx2/ldn_mitm",
+    "url": "https://github.com/spacemeowx2/ldn_mitm/releases/tag/v1.22.0"
+  },
+  "nxovlloader": {
+    "version": "v1.0.7",
+    "published_at": "2023-05-05T14:37:42+00:00",
+    "repo": "WerWolv/nx-ovlloader",
+    "url": "https://github.com/WerWolv/nx-ovlloader/releases/tag/v1.0.7"
+  },
+  "ovlsysmodules": {
+    "version": "v1.3.1",
+    "published_at": "2023-03-16T21:09:33+00:00",
+    "repo": "WerWolv/ovl-sysmodules",
+    "url": "https://github.com/WerWolv/ovl-sysmodules/releases/tag/v1.3.1"
+  },
+  "teslamenu": {
+    "version": "v1.2.2",
+    "published_at": "2023-05-10T15:43:42+00:00",
+    "repo": "hax4dazy/Tesla-Menu",
+    "url": "https://github.com/hax4dazy/Tesla-Menu/releases/tag/v1.2.2"
+  },
+  "statusmonitoroverlay": {
+    "version": "1.3.0",
+    "published_at": "2025-10-30T13:06:05+00:00",
+    "repo": "masagrator/Status-Monitor-Overlay",
+    "url": "https://github.com/masagrator/Status-Monitor-Overlay/releases/tag/1.3.0"
+  },
+  "tegraexplorer": {
+    "version": "4.2.0",
+    "published_at": "2024-07-07T17:33:02+00:00",
+    "repo": "suchmememanyskill/TegraExplorer",
+    "url": "https://github.com/suchmememanyskill/TegraExplorer/releases/tag/4.2.0"
+  },
+  "nxshell": {
+    "version": "4.01",
+    "published_at": "2022-08-07T18:32:20+00:00",
+    "repo": "joel16/NX-Shell",
+    "url": "https://github.com/joel16/NX-Shell/releases/tag/4.01"
+  },
+  "missioncontrol": {
+    "version": "v0.13.6",
+    "published_at": "2025-09-30T09:55:23+00:00",
+    "repo": "ndeadly/MissionControl",
+    "url": "https://github.com/ndeadly/MissionControl/releases/tag/v0.13.6"
+  }
 }
