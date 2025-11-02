@@ -4,6 +4,17 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
+    inputs:
+      release_version:
+        description: 'Override release version (optional - uses settings.json if empty)'
+        required: false
+        type: string
+      create_draft:
+        description: 'Create draft release (default: true). Set to false to publish immediately'
+        required: false
+        type: boolean
+        default: true
 
 defaults:
   run:
@@ -18,8 +29,14 @@ jobs:
 
     - id: set-version
       run: |
-        version=$(python -c 'import sys, json; f=open("./settings.json");print(json.loads(f.read())["releaseVersion"])')
+        # Use manual input version if provided, otherwise use settings.json
+        if [ -n "${{ github.event.inputs.release_version }}" ]; then
+          version="${{ github.event.inputs.release_version }}"
+        else
+          version=$(python -c 'import sys, json; f=open("./settings.json");print(json.loads(f.read())["releaseVersion"])')
+        fi
         echo "version=$version" >> $GITHUB_OUTPUT
+        echo "Using version: $version"
 
     - name: Set up hub
       run: |
@@ -34,11 +51,30 @@ jobs:
       run: |
         if [ -f ../requirements.txt ]; then pip3 install -r ../requirements.txt; fi
 
-    - name: Create DeepSea Packages
+    - name: Create Ascent Packages
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         python ./start.py -gt="$GITHUB_TOKEN"
+
+    - name: Generate Release Notes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        python ./version_tracker.py -gt="$GITHUB_TOKEN" -o="release_notes.md"
+
+    - name: Commit Version Tracking File
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        
+        if [ -f "last_component_versions.json" ]; then
+          git add last_component_versions.json
+          git diff --staged --quiet || git commit -m "Update component version tracking [skip ci]"
+          git push
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Create Release
       run: |
@@ -47,6 +83,19 @@ jobs:
         for asset in ./*.zip; do
           assets+=("-a" "$asset")
         done
-        hub release create "${assets[@]}" -d -m "Release v${{ steps.set-version.outputs.version }}" "v${{ steps.set-version.outputs.version }}"
+        
+        # Always create draft releases by default
+        # Can be overridden to published by setting create_draft to false in manual runs
+        draft_flag="-d"
+        if [ "${{ github.event.inputs.create_draft }}" = "false" ]; then
+          draft_flag=""
+        fi
+        
+        # Use generated release notes if available, otherwise use simple message
+        if [ -f "release_notes.md" ]; then
+          hub release create "${assets[@]}" $draft_flag -F "release_notes.md" "v${{ steps.set-version.outputs.version }}"
+        else
+          hub release create "${assets[@]}" $draft_flag -m "Release v${{ steps.set-version.outputs.version }}" "v${{ steps.set-version.outputs.version }}"
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -6,7 +6,7 @@ logging.getLogger().setLevel(logging.INFO)
 
 if __name__ == '__main__':
     
-  parser = argparse.ArgumentParser(description="Team Neptune's DeepSea build script.")
+  parser = argparse.ArgumentParser(description="eXploitz's Ascent build script.")
   requiredNamed = parser.add_argument_group('Options required to build a release candidate')
   requiredNamed.add_argument('-gt', '--githubToken', help='Github Token', required=True)
   args = parser.parse_args()
@@ -48,6 +48,6 @@ if __name__ == '__main__':
       
       logging.info(f"[{package['name']}] All modules processed.")
       logging.info(f"[{package['name']}] Creating ZIP")
-      shutil.make_archive(f"deepsea-{package['name']}_v{settings['releaseVersion']}", 'zip', "./sd")
+      shutil.make_archive(f"ascent-{package['name']}_v{settings['releaseVersion']}", 'zip', "./sd")
 
 

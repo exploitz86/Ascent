@@ -1,5 +1,5 @@
 {
-    "releaseVersion": "4.14.0",
+    "releaseVersion": "1.00.0",
     "packages": [
         {
             "name": "minimal",
@@ -7,8 +7,8 @@
             "modules": [
                 "atmosphere",
                 "hekate",
-                "deepseaassets",
-                "hbappstore"
+                "ascentassets",
+                "sphaira"
             ]
         },
         {
@@ -17,20 +17,18 @@
             "modules": [
                 "atmosphere",
                 "hekate",
-                "deepseaassets",
-                "hbappstore",
-                "deepseatoolbox",
+                "ascentassets",
+                "sphaira",
+                "ascenttoolbox",
                 "aioupdater",
                 "edizon",
                 "edizon-ovl",
                 "emuiibo",
                 "jksv",
                 "goldleaf",
-                "sysftpd",
                 "nxovlloader",
                 "ovlsysmodules",
-                "teslamenu",
-                "deepseacpr"
+                "teslamenu"
             ]
         },
         {
@@ -39,9 +37,9 @@
             "modules": [
                 "atmosphere",
                 "hekate",
-                "deepseaassets",
-                "hbappstore",
-                "deepseatoolbox",
+                "ascentassets",
+                "sphaira",
+                "ascenttoolbox",
                 "aioupdater",
                 "edizon",
                 "edizon-ovl",
@@ -50,12 +48,10 @@
                 "goldleaf",
                 "sysclk",
                 "syscon",
-                "sysftpd",
                 "nxovlloader",
                 "ovlsysmodules",
                 "teslamenu",
                 "statusmonitoroverlay",
-                "deepseacpr",
                 "tegraexplorer",
                 "nxshell",
 		        "missioncontrol"
@@ -79,6 +75,18 @@
                     "name": "delete",
                     "arguments": [
                         "switch/reboot_to_payload.nro"
+                    ]
+                },
+                {
+                    "name": "delete",
+                    "arguments": [
+                        "switch/haze.nro"
+                    ]
+                },
+                {
+                    "name": "delete",
+                    "arguments": [
+                        "hbmenu.nro"
                     ]
                 },
                 {
@@ -128,17 +136,35 @@
                 }
             ]
         },
-        "deepseaassets": {
-            "repo": "Team-Neptune/DeepSea-Assets",
+        "ascentassets": {
+            "repo": "exploitz86/Ascent-Assets",
             "regex": [
-                ".*DeepSea-Assets.*\\.zip"
+                ".*Ascent-Assets.*\\.zip"
             ],
             "steps": [
                 {
                     "name": "extract",
                     "arguments": [
-                        ".*DeepSea-Assets.*\\.zip"
+                        ".*Ascent-Assets.*\\.zip"
                     ]
+                }
+            ]
+        },
+        "sphaira": {
+            "repo": "ITotalJustice/sphaira",
+            "regex": [".*sphaira.*\\.zip"],
+            "steps": [
+                {
+                    "name": "extract",
+                    "arguments": [".*sphaira.*\\.zip"]
+                },
+                {
+                    "name": "move",
+                    "arguments": ["switch/sphaira/sphaira.nro", "hbmenu.nro"]
+                },
+                {
+                    "name": "delete",
+                    "arguments": ["switch/sphaira"]
                 }
             ]
         },
@@ -154,32 +180,22 @@
                 }
             ]
         },
-        "deepseatoolbox": {
-            "repo": "Team-Neptune/DeepSea-Toolbox",
+        "ascenttoolbox": {
+            "repo": "exploitz86/Ascent-Toolbox",
             "regex": [".*\\.nro"],
             "steps": [
                 {
                     "name": "create_dir",
-                    "arguments": ["switch/DeepSea-Toolbox"]
+                    "arguments": ["switch/Ascent-Toolbox"]
                 },
                 {
                     "name": "move",
-                    "arguments": ["DeepSeaToolbox.nro", "switch/DeepSea-Toolbox/DeepSeaToolbox.nro"]
-                }
-            ]
-        },
-        "deepseacleaner": {
-            "repo": "Team-Neptune/DeepSea-Cleaner",
-            "regex": [".*DeepSea-Cleaner.*\\.zip"],
-            "steps": [
-                {
-                    "name": "extract",
-                    "arguments": [".*DeepSea-Cleaner.*\\.zip"]
+                    "arguments": ["Ascent-Toolbox.nro", "switch/Ascent-Toolbox/Ascent-Toolbox.nro"]
                 }
             ]
         },
         "aioupdater": {
-            "repo": "HamletDuFromage/aio-switch-updater",
+            "repo": "exploitz86/aio-switch-updater",
             "regex": [".*aio-switch-updater.*\\.zip"],
             "steps": [
                 {
@@ -331,7 +347,7 @@
                     "arguments": [
                         "config/sys-ftpd/config.ini",
                         "user:=",
-                        "user:=deepsea"
+                        "user:=ascent"
                     ]
                 },
                 {
@@ -403,20 +419,6 @@
                 {
                     "name": "extract",
                     "arguments": [".*Status-Monitor-Overlay.*\\.zip"]
-                }
-            ]
-        },
-        "deepseacpr": {
-            "repo": "Team-Neptune/CommonProblemResolver",
-            "regex": [".*\\.bin"],
-            "steps": [
-                {
-                    "name": "create_dir",
-                    "arguments": ["bootloader/payloads"]
-                },
-                {
-                    "name": "move",
-                    "arguments": ["CommonProblemResolver.bin", "bootloader/payloads/CommonProblemResolver.bin"]
                 }
             ]
         },
