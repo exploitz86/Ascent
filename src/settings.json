@@ -1,5 +1,5 @@
 {
-    "releaseVersion": "1.01.0",
+    "releaseVersion": "1.01.1",
     "packages": [
         {
             "name": "minimal",
@@ -183,12 +183,12 @@
             ]
         },
         "aioupdater": {
-            "repo": "exploitz86/aio-switch-updater",
-            "regex": [".*aio-switch-updater.*\\.zip"],
+            "repo": "exploitz86/aio-switch-updater-reborn",
+            "regex": [".*aio-switch-updater-reborn.*\\.zip"],
             "steps": [
                 {
                     "name": "extract",
-                    "arguments": [".*aio-switch-updater.*\\.zip"]
+                    "arguments": [".*aio-switch-updater-reborn.*\\.zip"]
                 }
             ]
         },
