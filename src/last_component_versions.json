@@ -12,10 +12,10 @@
     "url": "https://github.com/CTCaer/hekate/releases/tag/v6.3.1"
   },
   "ascentassets": {
-    "version": "v1.0",
-    "published_at": "2025-11-01T16:26:01+00:00",
+    "version": "v1.1",
+    "published_at": "2025-11-10T16:08:13+00:00",
     "repo": "exploitz86/Ascent-Assets",
-    "url": "https://github.com/exploitz86/Ascent-Assets/releases/tag/v1.0"
+    "url": "https://github.com/exploitz86/Ascent-Assets/releases/tag/v1.1"
   },
   "sphaira": {
     "version": "0.13.3",
@@ -30,10 +30,10 @@
     "url": "https://github.com/exploitz86/Ascent-Toolbox/releases/tag/1.0.0"
   },
   "aioupdater": {
-    "version": "1.02.0",
-    "published_at": "2025-11-07T18:33:07+00:00",
+    "version": "1.03.0",
+    "published_at": "2025-11-10T16:01:23+00:00",
     "repo": "exploitz86/aio-switch-updater-reborn",
-    "url": "https://github.com/exploitz86/aio-switch-updater-reborn/releases/tag/1.02.0"
+    "url": "https://github.com/exploitz86/aio-switch-updater-reborn/releases/tag/1.03.0"
   },
   "edizon": {
     "version": "3.8.37",
