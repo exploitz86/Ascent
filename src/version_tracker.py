@@ -24,8 +24,15 @@ class VersionTracker:
                 repo = self.github.get_repo(module_config["repo"])
                 releases = repo.get_releases()
                 
+                # Find the latest stable release (skip pre-releases)
+                latest_release = None
                 if releases.totalCount > 0:
-                    latest_release = releases[0]
+                    for release in releases:
+                        if not release.prerelease:
+                            latest_release = release
+                            break
+                
+                if latest_release is not None:
                     versions[module_name] = {
                         "version": latest_release.tag_name,
                         "published_at": latest_release.published_at.isoformat(),
