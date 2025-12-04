@@ -1,3 +1,5 @@
+![releases](https://img.shields.io/github/downloads/exploitz86/ascent/total)
+![tag](https://img.shields.io/github/v/release/exploitz86/ascent)
 <img src="assets/banner.png" align="center" width="100%" />
 <p align="center">
     An All-in-One CFW package for the Nintendo Switch.</br>

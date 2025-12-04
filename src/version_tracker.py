@@ -118,12 +118,24 @@ class VersionTracker:
     
     def generate_changelog(self, settings, updates):
         """Generate a focused changelog based on actual updates"""
-        current_version = settings.get("releaseVersion", "unknown")
+        # Load version from version.json
+        try:
+            with open('./version.json', 'r') as f:
+                version_data = json.load(f)
+                current_version = version_data.get("releaseVersion", "unknown")
+        except Exception as e:
+            logging.warning(f"Failed to load version.json: {e}, using fallback")
+            current_version = settings.get("releaseVersion", "unknown")
+        
         current_date = datetime.now().strftime("%Y-%m-%d")
         
         notes = []
         notes.append(f"# Ascent v{current_version}")
         notes.append(f"*Released on {current_date}*")
+        notes.append("")
+        notes.append("Latest supported HOS: ")
+        notes.append("")
+        notes.append(f"![Downloads](https://img.shields.io/github/downloads/exploitz86/Ascent/v{current_version}/total)")
         notes.append("")
         
         # Show what's been updated

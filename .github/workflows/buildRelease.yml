@@ -4,10 +4,12 @@ on:
   push:
     branches:
       - master
+    paths:
+      - 'src/version.json'
   workflow_dispatch:
     inputs:
       release_version:
-        description: 'Override release version (optional - uses settings.json if empty)'
+        description: 'Override release version (optional - uses version.json if empty)'
         required: false
         type: string
       create_draft:
@@ -29,11 +31,11 @@ jobs:
 
     - id: set-version
       run: |
-        # Use manual input version if provided, otherwise use settings.json
+        # Use manual input version if provided, otherwise use version.json
         if [ -n "${{ github.event.inputs.release_version }}" ]; then
           version="${{ github.event.inputs.release_version }}"
         else
-          version=$(python -c 'import sys, json; f=open("./settings.json");print(json.loads(f.read())["releaseVersion"])')
+          version=$(python -c 'import sys, json; f=open("./version.json");print(json.loads(f.read())["releaseVersion"])')
         fi
         echo "version=$version" >> $GITHUB_OUTPUT
         echo "Using version: $version"
