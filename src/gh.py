@@ -21,7 +21,18 @@ class GH():
         if releases.totalCount == 0:
             logging.warning(f"No available release for: {module['repo']}")
             return
-        ghLatestRelease = releases[0]
+
+        # Find the latest stable release (skip pre-releases)
+        ghLatestRelease = None
+        for release in releases:
+            if not release.prerelease:
+                ghLatestRelease = release
+                logging.info(f"[{module['repo']}] Using stable release: {release.tag_name}")
+                break
+        
+        if ghLatestRelease is None:
+            logging.warning(f"No stable release found for: {module['repo']}")
+            return
 
         for pattern in module["regex"]:
             for asset in ghLatestRelease.get_assets():

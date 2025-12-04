@@ -92,4 +92,7 @@ class FS():
     def __copyToSD(self):
         shutil.copytree("./menv", "./sd/", dirs_exist_ok=True)
 
-
+    def createAscentFile(self, releaseVersion, packageName):
+        Path("./sd/atmosphere").mkdir(parents=True, exist_ok=True)
+        with open("./sd/atmosphere/ASCENT", "w") as f:
+            f.write(f"{releaseVersion} - {packageName}")

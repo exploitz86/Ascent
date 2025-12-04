@@ -47,6 +47,8 @@ if __name__ == '__main__':
         sdcard.finishModule()
       
       logging.info(f"[{package['name']}] All modules processed.")
+      logging.info(f"[{package['name']}] Creating ASCENT file in atmosphere folder")
+      sdcard.createAscentFile(settings['releaseVersion'], package['name'])
       logging.info(f"[{package['name']}] Creating ZIP")
       shutil.make_archive(f"ascent-{package['name']}_v{settings['releaseVersion']}", 'zip', "./sd")
 
