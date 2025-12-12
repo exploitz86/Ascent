@@ -17,6 +17,10 @@ if __name__ == '__main__':
   with open('./settings.json', 'r') as f:
     settings = json.load(f)
 
+  with open('./version.json', 'r') as f:
+    version = json.load(f)
+    releaseVersion = version['releaseVersion']
+
   neededModules = []
   for package in settings["packages"]:
     if package["active"]:
@@ -48,8 +52,8 @@ if __name__ == '__main__':
       
       logging.info(f"[{package['name']}] All modules processed.")
       logging.info(f"[{package['name']}] Creating ASCENT file in atmosphere folder")
-      sdcard.createAscentFile(settings['releaseVersion'], package['name'])
+      sdcard.createAscentFile(releaseVersion, package['name'])
       logging.info(f"[{package['name']}] Creating ZIP")
-      shutil.make_archive(f"ascent-{package['name']}_v{settings['releaseVersion']}", 'zip', "./sd")
+      shutil.make_archive(f"ascent-{package['name']}_v{releaseVersion}", 'zip', "./sd")
 
 
