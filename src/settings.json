@@ -22,12 +22,11 @@
                 "aioupdater",
                 "edizon",
                 "edizon-ovl",
-                "emuiibo",
                 "jksv",
                 "goldleaf",
                 "nxovlloader",
                 "ovlsysmodules",
-                "teslamenu"
+                "ultrahand"
             ]
         },
         {
@@ -42,17 +41,14 @@
                 "aioupdater",
                 "edizon",
                 "edizon-ovl",
-                "emuiibo",
                 "jksv",
                 "goldleaf",
                 "sysclk",
                 "syscon",
                 "nxovlloader",
                 "ovlsysmodules",
-                "teslamenu",
+                "ultrahand",
                 "statusmonitoroverlay",
-                "tegraexplorer",
-                "nxshell",
 		        "missioncontrol"
             ]
         }
@@ -107,6 +103,14 @@
                         "atmosphere/config/system_settings.ini",
                         "; dmnt_cheats_enabled_by_default = u8!0x1",
                         "dmnt_cheats_enabled_by_default = u8!0x0"
+                    ]
+                },
+                {
+                    "name": "replace_content",
+                    "arguments": [
+                        "atmosphere/config/system_settings.ini",
+                        "; dmnt_always_save_cheat_toggles = u8!0x0",
+                        "dmnt_always_save_cheat_toggles = u8!0x1"
                     ]
                 }
             ]
@@ -198,10 +202,6 @@
                 {
                     "name": "extract",
                     "arguments": [".*EdiZon.*\\.zip"]
-                },
-                {
-                    "name": "delete",
-                    "arguments": ["switch/breeze"]
                 }
             ]
         },
@@ -212,36 +212,6 @@
                 {
                     "name": "extract",
                     "arguments": [".*EdiZon-Overlay.*\\.zip"]
-                }
-            ]
-        },
-        "emuiibo": {
-            "repo": "XorTroll/emuiibo",
-            "regex": [".*emuiibo.*\\.zip"],
-            "steps": [
-                {
-                    "name": "extract",
-                    "arguments": [".*emuiibo.*\\.zip"]
-                },
-                {
-                    "name": "delete",
-                    "arguments": ["SdOut/atmosphere/contents/0100000000000352/flags/boot2.flag"]
-                },
-                {
-                    "name": "move",
-                    "arguments": ["SdOut/atmosphere", "atmosphere"]
-                },
-                {
-                    "name": "move",
-                    "arguments": ["SdOut/emuiibo", "emuiibo"]
-                },
-                {
-                    "name": "move",
-                    "arguments": ["SdOut/switch", "switch"]
-                },
-                {
-                    "name": "delete",
-                    "arguments": ["SdOut"]
                 }
             ]
         },
@@ -260,7 +230,7 @@
             ]
         },
         "goldleaf": {
-            "repo": "XorTroll/Goldleaf",
+            "repo": "exploitz86/Goldleaf", // Temporary link to Goldleaf repo (XorTroll/Goldleaf) until the official one is restored
             "regex": ["Goldleaf.nro"],
             "steps": [
                 {
@@ -274,7 +244,7 @@
             ]
         },
         "sysclk": {
-            "repo": "retronx-team/sys-clk",
+            "repo": "exploitz86/sys-clk", // Temporary link to sys-clk repo (retronx-team/sys-clk) until the official one is restored
             "regex": [".*sys-clk.*\\.zip"],
             "steps": [
                 {
@@ -304,7 +274,7 @@
             ]
         },
         "syscon": {
-            "repo": "cathery/sys-con",
+            "repo": "exploitz86/sys-con", // Temporary link to sys-con repo (cathery/sys-con) until the official one is restored
             "regex": [".*sys-con.*\\.zip"],
             "steps": [
                 {
@@ -314,36 +284,6 @@
                 {
                     "name": "delete",
                     "arguments": ["atmosphere/contents/690000000000000D/flags/boot2.flag"]
-                }
-            ]
-        },
-        "sysftpd": {
-            "repo": "cathery/sys-ftpd",
-            "regex": [".*sys-ftpd.*\\.zip"],
-            "steps": [
-                {
-                    "name": "extract",
-                    "arguments": [".*sys-ftpd.*\\.zip"]
-                },
-                {
-                    "name": "delete",
-                    "arguments": ["atmosphere/contents/420000000000000E/flags/boot2.flag"]
-                },
-                {
-                    "name": "replace_content",
-                    "arguments": [
-                        "config/sys-ftpd/config.ini",
-                        "user:=",
-                        "user:=ascent"
-                    ]
-                },
-                {
-                    "name": "replace_content",
-                    "arguments": [
-                        "config/sys-ftpd/config.ini",
-                        "password:=",
-                        "password:=secretpass"
-                    ]
                 }
             ]
         },
@@ -366,7 +306,7 @@
             ]
         },
         "nxovlloader": {
-            "repo": "WerWolv/nx-ovlloader",
+            "repo": "ppkantorski/nx-ovlloader",
             "regex": [".*nx-ovlloader.*\\.zip"],
             "steps": [
                 {
@@ -376,7 +316,7 @@
             ]
         },
         "ovlsysmodules": {
-            "repo": "WerWolv/ovl-sysmodules",
+            "repo": "exploitz86/ovl-sysmodules", // Temporary link to ovl-sysmodules repo (WerWolv/ovl-sysmodules) until the official one is restored
             "regex": [".*ovlSysmodules.*\\.ovl"],
             "steps": [
                 {
@@ -389,13 +329,17 @@
                 }
             ]
         },
-        "teslamenu": {
-            "repo": "hax4dazy/Tesla-Menu",
-            "regex": [".*ovlmenu.*\\.zip"],
+        "ultrahand": {
+            "repo": "ppkantorski/Ultrahand-Overlay",
+            "regex": [".*ovlmenu.*\\.ovl"],
             "steps": [
                 {
-                    "name": "extract",
-                    "arguments": [".*ovlmenu.*\\.zip"]
+                    "name": "create_dir",
+                    "arguments": ["switch/.overlays"]
+                },
+                {
+                    "name": "move",
+                    "arguments": ["ovlmenu.ovl", "switch/.overlays/ovlmenu.ovl"]
                 }
             ]
         },
@@ -406,34 +350,6 @@
                 {
                     "name": "extract",
                     "arguments": [".*Status-Monitor-Overlay.*\\.zip"]
-                }
-            ]
-        },
-        "tegraexplorer": {
-            "repo": "suchmememanyskill/TegraExplorer",
-            "regex": [".*\\.bin"],
-            "steps": [
-                {
-                    "name": "create_dir",
-                    "arguments": ["bootloader/payloads"]
-                },
-                {
-                    "name": "move",
-                    "arguments": ["TegraExplorer.bin", "bootloader/payloads/TegraExplorer.bin"]
-                }
-            ]
-        },
-        "nxshell": {
-            "repo": "joel16/NX-Shell",
-            "regex": [".*NX-Shell.*\\.nro"],
-            "steps": [
-                {
-                    "name": "create_dir",
-                    "arguments": ["switch/NX-Shell"]
-                },
-                {
-                    "name": "move",
-                    "arguments": ["NX-Shell.nro", "switch/NX-Shell/NX-Shell.nro"]
                 }
             ]
         },

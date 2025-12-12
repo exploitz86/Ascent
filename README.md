@@ -38,22 +38,25 @@ Send the Hekate payload to your Switch in RCM mode and launch the CFW
 | [Ascent Toolbox](https://github.com/exploitz86/Ascent-Toolbox) | ✅ | ✅ |  |
 | [EdiZon-SE](https://github.com/tomvita/EdiZon-SE) | ✅ | ✅ |  |
 | [EdiZon-Overlay](https://github.com/proferabg/EdiZon-Overlay) | ✅ | ✅ |  |
-| [Emuiibo](https://github.com/XorTroll/emuiibo) | ✅ | ✅ |  |
 | [Hekate](https://github.com/CTCaer/hekate) | ✅ | ✅ | ✅ |
 | [Sphaira](https://github.com/ITotalJustice/sphaira) | ✅ | ✅ | ✅ |
 | [JKSV](https://github.com/J-D-K/JKSV) | ✅ | ✅ |  |
 | [ldn_mitm](https://github.com/spacemeowx2/ldn_mitm) | ✅ |  |  |
 | [MissionControl](https://github.com/ndeadly/MissionControl) | ✅ |  |  |
-| [nx-ovlloader](https://github.com/WerWolv/nx-ovlloader) | ✅ | ✅ |  |
+| [nx-ovlloader](https://github.com/ppkantorski/nx-ovlloader) | ✅ | ✅ |  |
 | [ovlSysmodules](https://github.com/WerWolv/ovl-sysmodules) | ✅ | ✅ |  |
 | [Status Monitor Overlay](https://github.com/masagrator/Status-Monitor-Overlay) | ✅ |  |
 | [sys-clk](https://github.com/retronx-team/sys-clk) | ✅ |  |
 | [sys-con](https://github.com/cathery/sys-con) | ✅ |  |  |
-| [TegraExplorer](https://github.com/joel16/NX-Shell) | ✅ |  |  |
-| [Tesla-Menu](https://github.com/WerWolv/Tesla-Menu) | ✅ | ✅ |  |
+| [Ultrahand-Overlay](https://github.com/ppkantorski/Ultrahand-Overlay) | ✅ | ✅ |  |
 | [Goldleaf](https://github.com/XorTroll/Goldleaf) | ✅ | ✅ |  |
 
-
+## Important
+* Please note that the following repos are temporarily forked and recompiled due to their incompatibility with HOS 21.x.x+
+| Goldleaf |
+| sys-con |
+| sys-clk |
+| ovl-sysmodules |
 
 ## Credits
 * Thanks to all members of Team Neptune!
