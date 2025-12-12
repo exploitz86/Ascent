@@ -230,7 +230,7 @@
             ]
         },
         "goldleaf": {
-            "repo": "exploitz86/Goldleaf", // Temporary link to Goldleaf repo (XorTroll/Goldleaf) until the official one is restored
+            "repo": "exploitz86/Goldleaf",
             "regex": ["Goldleaf.nro"],
             "steps": [
                 {
@@ -244,7 +244,7 @@
             ]
         },
         "sysclk": {
-            "repo": "exploitz86/sys-clk", // Temporary link to sys-clk repo (retronx-team/sys-clk) until the official one is restored
+            "repo": "exploitz86/sys-clk",
             "regex": [".*sys-clk.*\\.zip"],
             "steps": [
                 {
@@ -274,7 +274,7 @@
             ]
         },
         "syscon": {
-            "repo": "exploitz86/sys-con", // Temporary link to sys-con repo (cathery/sys-con) until the official one is restored
+            "repo": "exploitz86/sys-con",
             "regex": [".*sys-con.*\\.zip"],
             "steps": [
                 {
@@ -316,7 +316,7 @@
             ]
         },
         "ovlsysmodules": {
-            "repo": "exploitz86/ovl-sysmodules", // Temporary link to ovl-sysmodules repo (WerWolv/ovl-sysmodules) until the official one is restored
+            "repo": "exploitz86/ovl-sysmodules",
             "regex": [".*ovlSysmodules.*\\.ovl"],
             "steps": [
                 {
