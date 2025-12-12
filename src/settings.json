@@ -202,6 +202,10 @@
                 {
                     "name": "extract",
                     "arguments": [".*edizon.*\\.zip"]
+                },
+                {
+                    "name": "delete",
+                    "arguments": ["switch/reboot_to_hekate.nro"]
                 }
             ]
         },
@@ -312,6 +316,10 @@
                 {
                     "name": "extract",
                     "arguments": [".*nx-ovlloader.*\\.zip"]
+                },
+                {
+                    "name": "delete",
+                    "arguments": ["switch/Ultrahand-Reload"]
                 }
             ]
         },
