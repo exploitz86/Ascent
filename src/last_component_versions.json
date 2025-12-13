@@ -47,6 +47,12 @@
     "repo": "proferabg/EdiZon-Overlay",
     "url": "https://github.com/proferabg/EdiZon-Overlay/releases/tag/v1.0.14"
   },
+  "emuiibo": {
+    "version": "1.1.1",
+    "published_at": "2025-12-13T10:27:03+00:00",
+    "repo": "exploitz86/emuiibo",
+    "url": "https://github.com/exploitz86/emuiibo/releases/tag/1.1.1"
+  },
   "jksv": {
     "version": "12/02/2025",
     "published_at": "2025-12-02T14:08:19+00:00",
