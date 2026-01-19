@@ -32,7 +32,7 @@ Send the Hekate payload to your Switch in RCM mode and launch the CFW
 
 | Software | Advanced Package| Normal Package | Minimal Package |
 | -------- | :-------------: | :------------: | :------------: |
-| [AIO-switch-updater Reborn](https://github.com/exploitz86/aio-switch-updater) | ✅ | ✅ |  |
+| [SwitchBlade](https://github.com/exploitz86/SwitchBlade) | ✅ | ✅ |  |
 | [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere) | ✅ | ✅ | ✅ |
 | [Ascent Assets](https://github.com/exploitz86/Ascent-Assets) | ✅ | ✅ | ✅ |
 | [Ascent Toolbox](https://github.com/exploitz86/Ascent-Toolbox) | ✅ | ✅ |  |
@@ -45,16 +45,18 @@ Send the Hekate payload to your Switch in RCM mode and launch the CFW
 | [ldn_mitm](https://github.com/spacemeowx2/ldn_mitm) | ✅ |  |  |
 | [MissionControl](https://github.com/ndeadly/MissionControl) | ✅ |  |  |
 | [nx-ovlloader](https://github.com/ppkantorski/nx-ovlloader) | ✅ | ✅ |  |
-| [ovlSysmodules](https://github.com/WerWolv/ovl-sysmodules) | ✅ | ✅ |  |
+| [ovlSysmodules](https://github.com/ppkantorski/ovl-sysmodules) | ✅ | ✅ |  |
 | [Status Monitor Overlay](https://github.com/masagrator/Status-Monitor-Overlay) | ✅ |  |
+| [sys-patch](https://github.com/impeeza/sys-patch) | ✅ |  |
 | [sys-clk](https://github.com/retronx-team/sys-clk) | ✅ |  |
 | [sys-con](https://github.com/cathery/sys-con) | ✅ |  |  |
+| [DowngradeFixer](https://github.com/sthetix/DowngradeFixer) | ✅ |  |  |
 | [Ultrahand-Overlay](https://github.com/ppkantorski/Ultrahand-Overlay) | ✅ | ✅ |  |
 | [Goldleaf](https://github.com/XorTroll/Goldleaf) | ✅ | ✅ |  |
 
 ## Important
 * Please note that the following repos are temporarily forked and recompiled due to their incompatibility with HOS 21.x.x+
-Goldleaf, Emuiibo, sys-con, sys-clk, ovl-sysmodules 
+sys-con, sys-clk
 
 ## Credits
 * Thanks to all members of Team Neptune!

@@ -19,7 +19,7 @@
                 "ascentassets",
                 "sphaira",
                 "ascenttoolbox",
-                "aioupdater",
+                "switchblade",
                 "edizon",
                 "edizon-ovl",
                 "jksv",
@@ -39,19 +39,21 @@
                 "ascentassets",
                 "sphaira",
                 "ascenttoolbox",
-                "aioupdater",
+                "switchblade",
                 "edizon",
                 "edizon-ovl",
                 "jksv",
                 "emuiibo",
                 "goldleaf",
+                "syspatch",
                 "sysclk",
                 "syscon",
                 "nxovlloader",
                 "ovlsysmodules",
                 "ultrahand",
                 "statusmonitoroverlay",
-		        "missioncontrol"
+		        "missioncontrol",
+                "downgradefixer"
             ]
         }
     ],
@@ -167,13 +169,13 @@
                 }
             ]
         },
-        "aioupdater": {
-            "repo": "exploitz86/aio-switch-updater-reborn",
-            "regex": [".*aio-switch-updater-reborn.*\\.zip"],
+        "switchblade": {
+            "repo": "exploitz86/SwitchBlade",
+            "regex": [".*SwitchBlade.*\\.zip"],
             "steps": [
                 {
                     "name": "extract",
-                    "arguments": [".*aio-switch-updater-reborn.*\\.zip"]
+                    "arguments": [".*SwitchBlade.*\\.zip"]
                 }
             ]
         },
@@ -188,6 +190,10 @@
                 {
                     "name": "delete",
                     "arguments": ["switch/reboot_to_hekate.nro"]
+                },
+                {
+                    "name": "delete",
+                    "arguments": ["switch/breeze/.Breeze.nro.star"]
                 }
             ]
         },
@@ -202,7 +208,7 @@
             ]
         },
         "emuiibo": {
-            "repo": "exploitz86/emuiibo",
+            "repo": "XorTroll/emuiibo",
             "regex": [".*emuiibo.*\\.zip"],
             "steps": [
                 {
@@ -246,7 +252,7 @@
             ]
         },
         "goldleaf": {
-            "repo": "exploitz86/Goldleaf",
+            "repo": "XorTroll/Goldleaf",
             "regex": ["Goldleaf.nro"],
             "steps": [
                 {
@@ -256,6 +262,16 @@
                 {
                     "name": "move",
                     "arguments": ["Goldleaf.nro", "switch/Goldleaf/Goldleaf.nro"]
+                }
+            ]
+        },
+        "syspatch": {
+            "repo": "impeeza/sys-patch",
+            "regex": [".*sys-patch.*\\.zip"],
+            "steps": [
+                {
+                    "name": "extract",
+                    "arguments": [".*sys-patch.*\\.zip"]
                 }
             ]
         },
@@ -336,7 +352,7 @@
             ]
         },
         "ovlsysmodules": {
-            "repo": "exploitz86/ovl-sysmodules",
+            "repo": "ppkantorski/ovl-sysmodules",
             "regex": [".*ovlSysmodules.*\\.ovl"],
             "steps": [
                 {
@@ -384,6 +400,16 @@
                 {
                     "name": "delete",
                     "arguments": ["atmosphere/contents/010000000000bd00/flags/boot2.flag"]
+                }
+            ]
+        },
+        "downgradefixer": {
+            "repo": "sthetix/DowngradeFixer",
+            "regex": [".*DowngradeFixer.*\\.zip"],
+            "steps": [
+                {
+                    "name": "extract",
+                    "arguments": [".*DowngradeFixer.*\\.zip"]
                 }
             ]
         }
