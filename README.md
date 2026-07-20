@@ -1,6 +1,5 @@
 ![releases](https://img.shields.io/github/downloads/exploitz86/ascent/total)
 ![tag](https://img.shields.io/github/v/release/exploitz86/ascent)
-[![Discord](https://img.shields.io/discord/ATdjKdHrqv?logo=discord&label=Discord&color=5865F2)](https://discord.gg/ATdjKdHrqv)
 <img src="assets/banner.png" align="center" width="100%" />
 <p align="center">
     An All-in-One CFW package for the Nintendo Switch.</br>
