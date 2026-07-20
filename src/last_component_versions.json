@@ -1,15 +1,15 @@
 {
   "atmosphere": {
-    "version": "1.11.1",
-    "published_at": "2026-04-07T17:06:47+00:00",
+    "version": "1.11.2",
+    "published_at": "2026-06-16T22:01:02+00:00",
     "repo": "Atmosphere-NX/Atmosphere",
-    "url": "https://github.com/Atmosphere-NX/Atmosphere/releases/tag/1.11.1"
+    "url": "https://github.com/Atmosphere-NX/Atmosphere/releases/tag/1.11.2"
   },
   "hekate": {
-    "version": "v6.5.2",
-    "published_at": "2026-03-19T22:23:23+00:00",
+    "version": "v6.5.3",
+    "published_at": "2026-06-16T22:14:44+00:00",
     "repo": "CTCaer/hekate",
-    "url": "https://github.com/CTCaer/hekate/releases/tag/v6.5.2"
+    "url": "https://github.com/CTCaer/hekate/releases/tag/v6.5.3"
   },
   "ascentassets": {
     "version": "v4.0",
@@ -30,10 +30,10 @@
     "url": "https://github.com/exploitz86/Ascent-Toolbox/releases/tag/1.1.0"
   },
   "switchblade": {
-    "version": "1.0.2",
-    "published_at": "2026-02-04T16:23:02+00:00",
+    "version": "1.2.0",
+    "published_at": "2026-04-30T14:13:43+00:00",
     "repo": "exploitz86/SwitchBlade",
-    "url": "https://github.com/exploitz86/SwitchBlade/releases/tag/1.0.2"
+    "url": "https://github.com/exploitz86/SwitchBlade/releases/tag/1.2.0"
   },
   "edizon": {
     "version": "3.8.37a",
@@ -42,10 +42,10 @@
     "url": "https://github.com/tomvita/EdiZon-SE/releases/tag/3.8.37a"
   },
   "edizon-ovl": {
-    "version": "v1.0.14",
-    "published_at": "2025-12-06T06:20:10+00:00",
+    "version": "v1.0.15",
+    "published_at": "2026-04-24T15:37:28+00:00",
     "repo": "proferabg/EdiZon-Overlay",
-    "url": "https://github.com/proferabg/EdiZon-Overlay/releases/tag/v1.0.14"
+    "url": "https://github.com/proferabg/EdiZon-Overlay/releases/tag/v1.0.15"
   },
   "emuiibo": {
     "version": "1.1.3",
@@ -66,10 +66,10 @@
     "url": "https://github.com/XorTroll/Goldleaf/releases/tag/1.2.0"
   },
   "syspatch": {
-    "version": "v1.6.0",
-    "published_at": "2026-03-17T13:05:23+00:00",
+    "version": "v1.6.2.3",
+    "published_at": "2026-06-17T08:03:39+00:00",
     "repo": "impeeza/sys-patch",
-    "url": "https://github.com/impeeza/sys-patch/releases/tag/v1.6.0"
+    "url": "https://github.com/impeeza/sys-patch/releases/tag/v1.6.2.3"
   },
   "sysclk": {
     "version": "2.0.1",
@@ -90,39 +90,39 @@
     "url": "https://github.com/spacemeowx2/ldn_mitm/releases/tag/v1.25.1"
   },
   "nxovlloader": {
-    "version": "v2.0.0",
-    "published_at": "2025-11-26T04:22:42+00:00",
+    "version": "v2.0.2",
+    "published_at": "2026-05-23T05:51:15+00:00",
     "repo": "ppkantorski/nx-ovlloader",
-    "url": "https://github.com/ppkantorski/nx-ovlloader/releases/tag/v2.0.0"
+    "url": "https://github.com/ppkantorski/nx-ovlloader/releases/tag/v2.0.2"
   },
   "ovlsysmodules": {
-    "version": "v1.4.9",
-    "published_at": "2026-04-17T05:08:07+00:00",
+    "version": "v1.5.3",
+    "published_at": "2026-06-25T08:57:45+00:00",
     "repo": "ppkantorski/ovl-sysmodules",
-    "url": "https://github.com/ppkantorski/ovl-sysmodules/releases/tag/v1.4.9"
+    "url": "https://github.com/ppkantorski/ovl-sysmodules/releases/tag/v1.5.3"
   },
   "ultrahand": {
-    "version": "v2.4.0",
-    "published_at": "2026-04-16T09:13:08+00:00",
+    "version": "v2.5.3",
+    "published_at": "2026-07-17T23:18:58+00:00",
     "repo": "ppkantorski/Ultrahand-Overlay",
-    "url": "https://github.com/ppkantorski/Ultrahand-Overlay/releases/tag/v2.4.0"
+    "url": "https://github.com/ppkantorski/Ultrahand-Overlay/releases/tag/v2.5.3"
   },
   "statusmonitoroverlay": {
-    "version": "1.3.2",
-    "published_at": "2025-11-15T20:37:01+00:00",
+    "version": "1.4.1",
+    "published_at": "2026-05-19T09:06:24+00:00",
     "repo": "masagrator/Status-Monitor-Overlay",
-    "url": "https://github.com/masagrator/Status-Monitor-Overlay/releases/tag/1.3.2"
+    "url": "https://github.com/masagrator/Status-Monitor-Overlay/releases/tag/1.4.1"
   },
   "missioncontrol": {
-    "version": "v0.15.1",
-    "published_at": "2026-04-07T17:59:14+00:00",
+    "version": "v0.15.2",
+    "published_at": "2026-06-18T17:56:06+00:00",
     "repo": "ndeadly/MissionControl",
-    "url": "https://github.com/ndeadly/MissionControl/releases/tag/v0.15.1"
+    "url": "https://github.com/ndeadly/MissionControl/releases/tag/v0.15.2"
   },
   "downgradefixer": {
-    "version": "1.0.0",
-    "published_at": "2025-11-20T13:03:57+00:00",
+    "version": "1.0.1",
+    "published_at": "2026-04-24T23:24:11+00:00",
     "repo": "sthetix/DowngradeFixer",
-    "url": "https://github.com/sthetix/DowngradeFixer/releases/tag/1.0.0"
+    "url": "https://github.com/sthetix/DowngradeFixer/releases/tag/1.0.1"
   }
 }
