@@ -1,5 +1,6 @@
 ![releases](https://img.shields.io/github/downloads/exploitz86/ascent/total)
 ![tag](https://img.shields.io/github/v/release/exploitz86/ascent)
+[![Discord](https://img.shields.io/discord/ATdjKdHrqv?logo=discord&label=Discord&color=5865F2)](https://discord.gg/ATdjKdHrqv)
 <img src="assets/banner.png" align="center" width="100%" />
 <p align="center">
     An All-in-One CFW package for the Nintendo Switch.</br>
@@ -19,12 +20,12 @@
 - Emulate Amiibo
 - Use all kinds of 3rd party controllers
 - Lan play (like Hamachi for your Switch)
-- Tesla overlay to control all those features (press L1+DpadDown+RightStick)
+- Ultrahand overlay to control all those features (press L1+R1+DpadDown)
 
 ## How to use
 Follow this guide to hack your Switch: https://switch.hacks.guide
 
-Download the latest release and put it on your SD Card<br />
+Download the [latest release](https://github.com/exploitz86/ascent/releases/latest) and put it on your SD Card, or install it directly through [SwitchBlade](https://github.com/exploitz86/SwitchBlade).<br />
 Send the Hekate payload to your Switch in RCM mode and launch the CFW
 
 
