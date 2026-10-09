@@ -1,27 +1,27 @@
 {
   "atmosphere": {
-    "version": "1.11.2",
-    "published_at": "2026-06-16T22:01:02+00:00",
+    "version": "1.12.0",
+    "published_at": "2026-09-27T23:21:53+00:00",
     "repo": "Atmosphere-NX/Atmosphere",
-    "url": "https://github.com/Atmosphere-NX/Atmosphere/releases/tag/1.11.2"
+    "url": "https://github.com/Atmosphere-NX/Atmosphere/releases/tag/1.12.0"
   },
   "hekate": {
-    "version": "v6.5.3",
-    "published_at": "2026-06-16T22:14:44+00:00",
+    "version": "v6.5.4",
+    "published_at": "2026-09-28T00:06:10+00:00",
     "repo": "CTCaer/hekate",
-    "url": "https://github.com/CTCaer/hekate/releases/tag/v6.5.3"
+    "url": "https://github.com/CTCaer/hekate/releases/tag/v6.5.4"
   },
   "ascentassets": {
-    "version": "v4.0",
-    "published_at": "2026-04-18T13:12:36+00:00",
+    "version": "v5.0",
+    "published_at": "2026-10-09T14:04:41+00:00",
     "repo": "exploitz86/Ascent-Assets",
-    "url": "https://github.com/exploitz86/Ascent-Assets/releases/tag/v4.0"
+    "url": "https://github.com/exploitz86/Ascent-Assets/releases/tag/v5.0"
   },
   "sphaira": {
-    "version": "1.0.0",
-    "published_at": "2025-11-18T18:49:28+00:00",
+    "version": "1.0.8",
+    "published_at": "2026-10-06T20:07:08+00:00",
     "repo": "ITotalJustice/sphaira",
-    "url": "https://github.com/ITotalJustice/sphaira/releases/tag/1.0.0"
+    "url": "https://github.com/NaGaa95/sphaira/releases/tag/1.0.8"
   },
   "ascenttoolbox": {
     "version": "1.1.0",
@@ -60,10 +60,10 @@
     "url": "https://github.com/J-D-K/JKSV/releases/tag/12/02/2025"
   },
   "goldleaf": {
-    "version": "1.2.0",
-    "published_at": "2025-12-22T19:28:38+00:00",
+    "version": "1.2.1",
+    "published_at": "2026-09-22T18:32:34+00:00",
     "repo": "XorTroll/Goldleaf",
-    "url": "https://github.com/XorTroll/Goldleaf/releases/tag/1.2.0"
+    "url": "https://github.com/XorTroll/Goldleaf/releases/tag/1.2.1"
   },
   "syspatch": {
     "version": "v1.6.2.3",
@@ -114,10 +114,10 @@
     "url": "https://github.com/masagrator/Status-Monitor-Overlay/releases/tag/1.4.1"
   },
   "missioncontrol": {
-    "version": "v0.15.2",
-    "published_at": "2026-06-18T17:56:06+00:00",
+    "version": "v0.16.0",
+    "published_at": "2026-10-02T10:17:17+00:00",
     "repo": "ndeadly/MissionControl",
-    "url": "https://github.com/ndeadly/MissionControl/releases/tag/v0.15.2"
+    "url": "https://github.com/ndeadly/MissionControl/releases/tag/v0.16.0"
   },
   "downgradefixer": {
     "version": "1.0.1",
