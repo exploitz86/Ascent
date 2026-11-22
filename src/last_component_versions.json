@@ -1,15 +1,15 @@
 {
   "atmosphere": {
-    "version": "1.12.0",
-    "published_at": "2026-09-27T23:21:53+00:00",
+    "version": "1.12.2",
+    "published_at": "2026-11-11T00:09:15+00:00",
     "repo": "Atmosphere-NX/Atmosphere",
-    "url": "https://github.com/Atmosphere-NX/Atmosphere/releases/tag/1.12.0"
+    "url": "https://github.com/Atmosphere-NX/Atmosphere/releases/tag/1.12.2"
   },
   "hekate": {
-    "version": "v6.5.4",
-    "published_at": "2026-09-28T00:06:10+00:00",
+    "version": "v6.5.5",
+    "published_at": "2026-11-11T17:43:29+00:00",
     "repo": "CTCaer/hekate",
-    "url": "https://github.com/CTCaer/hekate/releases/tag/v6.5.4"
+    "url": "https://github.com/CTCaer/hekate/releases/tag/v6.5.5"
   },
   "ascentassets": {
     "version": "v5.0",
@@ -18,10 +18,10 @@
     "url": "https://github.com/exploitz86/Ascent-Assets/releases/tag/v5.0"
   },
   "sphaira": {
-    "version": "1.0.8",
-    "published_at": "2026-10-06T20:07:08+00:00",
+    "version": "1.1.1",
+    "published_at": "2026-11-19T00:10:43+00:00",
     "repo": "ITotalJustice/sphaira",
-    "url": "https://github.com/NaGaa95/sphaira/releases/tag/1.0.8"
+    "url": "https://github.com/NaGaa95/sphaira/releases/tag/1.1.1"
   },
   "ascenttoolbox": {
     "version": "1.1.0",
@@ -66,10 +66,10 @@
     "url": "https://github.com/XorTroll/Goldleaf/releases/tag/1.2.1"
   },
   "syspatch": {
-    "version": "v1.6.2.3",
-    "published_at": "2026-06-17T08:03:39+00:00",
+    "version": "v1.6.3.0",
+    "published_at": "2026-10-19T05:33:41+00:00",
     "repo": "impeeza/sys-patch",
-    "url": "https://github.com/impeeza/sys-patch/releases/tag/v1.6.2.3"
+    "url": "https://github.com/impeeza/sys-patch/releases/tag/v1.6.3.0"
   },
   "sysclk": {
     "version": "2.0.1",
@@ -90,10 +90,10 @@
     "url": "https://github.com/spacemeowx2/ldn_mitm/releases/tag/v1.25.1"
   },
   "nxovlloader": {
-    "version": "v2.0.2",
-    "published_at": "2026-05-23T05:51:15+00:00",
+    "version": "v2.0.3",
+    "published_at": "2026-07-17T21:54:18+00:00",
     "repo": "ppkantorski/nx-ovlloader",
-    "url": "https://github.com/ppkantorski/nx-ovlloader/releases/tag/v2.0.2"
+    "url": "https://github.com/ppkantorski/nx-ovlloader/releases/tag/v2.0.3"
   },
   "ovlsysmodules": {
     "version": "v1.5.3",
@@ -102,10 +102,10 @@
     "url": "https://github.com/ppkantorski/ovl-sysmodules/releases/tag/v1.5.3"
   },
   "ultrahand": {
-    "version": "v2.5.3",
-    "published_at": "2026-07-17T23:18:58+00:00",
+    "version": "v2.5.4",
+    "published_at": "2026-11-08T16:38:47+00:00",
     "repo": "ppkantorski/Ultrahand-Overlay",
-    "url": "https://github.com/ppkantorski/Ultrahand-Overlay/releases/tag/v2.5.3"
+    "url": "https://github.com/ppkantorski/Ultrahand-Overlay/releases/tag/v2.5.4"
   },
   "statusmonitoroverlay": {
     "version": "1.4.1",
@@ -114,10 +114,10 @@
     "url": "https://github.com/masagrator/Status-Monitor-Overlay/releases/tag/1.4.1"
   },
   "missioncontrol": {
-    "version": "v0.16.0",
-    "published_at": "2026-10-02T10:17:17+00:00",
+    "version": "v0.16.1",
+    "published_at": "2026-11-11T10:50:02+00:00",
     "repo": "ndeadly/MissionControl",
-    "url": "https://github.com/ndeadly/MissionControl/releases/tag/v0.16.0"
+    "url": "https://github.com/ndeadly/MissionControl/releases/tag/v0.16.1"
   },
   "downgradefixer": {
     "version": "1.0.1",
