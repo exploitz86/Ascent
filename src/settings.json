@@ -53,7 +53,8 @@
                 "ultrahand",
                 "statusmonitoroverlay",
 		        "missioncontrol",
-                "downgradefixer"
+                "downgradefixer",
+                "lanywhere_selfhost"
             ]
         }
     ],
@@ -414,16 +415,12 @@
             ]
         },
         "lanywhere_selfhost": {
-            "repo": "SEc-123/lanywhere-selfhost",
-            "regex": [
-                "^switch-online-.*-hats\\.zip$"
-            ],
+            "repo": "SEc-123/Roomcircuit_lanywhere-selfhost",
+            "regex": ["^switch-online-.*-hats\\.zip$"],
             "steps": [
                 {
                     "name": "extract",
-                    "arguments": [
-                        "^switch-online-.*-hats\\.zip$"
-                    ]
+                    "arguments": ["^switch-online-.*-hats\\.zip$"]
                 }
             ]
         }

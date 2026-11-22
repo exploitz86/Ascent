@@ -53,6 +53,7 @@ Send the Hekate payload to your Switch in RCM mode and launch the CFW
 | [DowngradeFixer](https://github.com/sthetix/DowngradeFixer) | ✅ |  |  |
 | [Ultrahand-Overlay](https://github.com/ppkantorski/Ultrahand-Overlay) | ✅ | ✅ |  |
 | [Goldleaf](https://github.com/XorTroll/Goldleaf) | ✅ | ✅ |  |
+| [RoomCircuit](https://github.com/SEc-123/Roomcircuit_lanywhere-selfhost) | ✅ |  |  |
 
 ## Important
 * Please note that the following repos are temporarily forked and recompiled due to their incompatibility with HOS 21.x.x+
