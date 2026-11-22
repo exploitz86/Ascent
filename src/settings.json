@@ -412,6 +412,20 @@
                     "arguments": [".*DowngradeFixer.*\\.zip"]
                 }
             ]
+        },
+        "lanywhere_selfhost": {
+            "repo": "SEc-123/lanywhere-selfhost",
+            "regex": [
+                "^switch-online-.*-hats\\.zip$"
+            ],
+            "steps": [
+                {
+                    "name": "extract",
+                    "arguments": [
+                        "^switch-online-.*-hats\\.zip$"
+                    ]
+                }
+            ]
         }
     }
 }
